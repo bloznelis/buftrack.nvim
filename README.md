@@ -11,6 +11,7 @@ serves as a middle ground by tracking buffers heuristically.
 ## Installation
 ### lazy.nvim
 ```lua
+{
   'bloznelis/buftrack.nvim',
   config = function()
     local buftrack = require('buftrack')
